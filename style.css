@@ -1,0 +1,90 @@
+
+body {
+    background-image: url("https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?cs=srgb&dl=backgrounds-blank-blue-953214.jpg&fm=jpg");
+   
+    
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-indent: 40px;
+    font-size: 28px;
+    padding-bottom: 10%;
+
+}
+.pics {
+ border: 8px solid; color: #0004FD;
+ padding: 0;
+    
+}
+.dropdown {
+    
+}
+.invalid-feedback{
+    color: white;
+}
+
+.footer {
+
+    position: fixed;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+    background-color: blue;
+
+    color: black;
+
+    display:inline;
+
+}
+
+.footer ul {
+
+    text-decoration: none;
+
+}
+
+.footer li {
+
+    display: inline-block;
+
+    line-height: 2;
+
+    padding-left: 50px;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+.social {
+
+    float: left;
+
+    width: 25%;
+
+    padding: 1px;
+
+}
+
+.row::after {
+
+    content:"";
+
+    clear: both;
+
+    display: table;
+
+}
+
+.socialmedia {
+
+    padding-left: 15%;
+
+}

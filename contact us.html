@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="form.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Montserrat" rel="stylesheet">   
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">
+
+        </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact us.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  
+    <div class="container text-center">
+        <div class="pics">
+          <img width="45%" class="img-fluid" src="https://s-media-cache-ak0.pinimg.com/originals/38/f8/60/38f860fcce83fffd867ae38cb81c8b8b.jpg">
+        <img width="45%" class="img-fluid" src="https://vignette.wikia.nocookie.net/smallsoldiers/images/b/bc/Gorgonites.jpg/revision/latest?cb=20130827194735">
+       </div>
+            <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="display-1">Want a custom order?</h1>
+                <form novalidate class="needs-validation">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="First name" required>
+                        <div class="invalid-feedback">Well no name huh?</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Last Name</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Last name" required>
+                        <div class="invalid-feedback">Really? Are you Madonna?</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" required>
+                        <div class="invalid-feedback">Fine, you won't get an order recipt</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="messgae">What would you like?</label>
+                        <textarea id="message" cols="30" rows="10" class="form-control" required></textarea>
+                        <div class="invalid-feedback">I am not a mind reader, tell me what you want.</div>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="check" required>
+                        <label class="form-check-label" for="invalidCheck">Can we pester you with not spam-y email</label>
+                        <div class="invalid-feedback">
+                            You must agree to emails before submitting.
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit" onclick="myFunction()">Submit form</button>
+                </form>
+            </div>
+        </div>
+      </div>
+    </body>
+
+</html>
